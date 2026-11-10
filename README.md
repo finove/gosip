@@ -2,6 +2,14 @@
 
 Version: 0.1  
 
+> **Fork note:** This repository is a fork of
+> [jart/gosip](https://github.com/jart/gosip), based on commit
+> [`29801ced`](https://github.com/jart/gosip/commit/29801cedf805639b593931966aae4e7844cb0926).
+> It adds portable DSP implementations so the library builds on non-amd64
+> architectures (tested on `linux/arm64`); see
+> [dsp/dsp_generic.go](dsp/dsp_generic.go). The original Apache-2.0 license and
+> copyright notices are retained.
+
 ## About
 
 gosip (pronounced "gossip") is a library that lets you make phone calls using

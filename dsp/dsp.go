@@ -12,6 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+// Modified in the finove/gosip fork: these assembly declarations are restricted
+// to amd64. Portable implementations for other architectures are provided in
+// dsp_generic.go.
+
+//go:build amd64
+
 // Digital Signal Processing
 
 package dsp
